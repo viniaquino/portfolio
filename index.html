@@ -7,17 +7,20 @@
     <meta name="author" content="Vinícius Aquino">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+
+    <!-- Link para a Folha de Estilo da Página - CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Meu Perfil</title>
 </head>
 <body>
     <header>
-        <div id="header_content">
-            <div id="titulo">
+        <div class="header_content">
+            <div class="titulo">
                 <h1>Vinícius Aquino</h1>
             </div>
-            <div id="menu">
+            <div class="menu">
                 <nav>
-                    <ul id="menu">
+                    <ul class="menu">
                         <li>
                             <a href="index.html">Home</a>
                         </li>
@@ -30,11 +33,16 @@
         </div>
     </header>
     <main>
-        <section id="about">
+        <section class="about">
             <h2>Sobre o Vinícius</h2>
-            <div id="conteudo">
-                <img src="./assets/img/user_01.svg" alt="Foto do criador desse conteúdo" width="10%">
-                <article id="sobre_texto">
+            <div class="conteudo">
+                <img 
+                    src="./assets/img/user_01.svg" 
+                    alt="Foto do criador desse conteúdo" 
+                    class="img_profile"
+                >
+
+                <article class="sobre_texto">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing 
                         elit. Maiores unde, tenetur fugiat eos hic atque? Earum officia beatae 
                         doloribus labore nobis cum iste voluptas. 
@@ -49,9 +57,9 @@
             </div>
         </section>
 
-        <section id="video">
+        <section class="video">
             <h2>Meu video favorito:</h2>
-            <div id="youtube">
+            <div class="flex">
                 <iframe 
                     width="560" 
                     height="315" 
@@ -66,20 +74,20 @@
             </div>
         </section>
     </main>
-    <footer>
-        <section id="redes_sociais">
+    <footer class="flex">
+        <section class="redes_sociais">
             <a href="">
-                <img src="assets/img/linkedin.svg" alt="Linkedin">
+                <img src="assets/img/linkedin.svg" alt="Linkedin" class="social_icon">
             </a>
             <a href="">
-                <img src="assets/img/github.svg" alt="Github">
+                <img src="assets/img/github.svg" alt="Github" class="social_icon">
             </a>
             <a href="">
-                <img src="assets/img/instagram.svg" alt="Instagram">
+                <img src="assets/img/instagram.svg" alt="Instagram" class="social_icon">
             </a>
         </section>
         <h3>
-            🖥🎓 Feito por Vinícius Aquino - 2025
+            Feito por Vinícius Aquino - 2025
         </h3>
     </footer>
 </body>
